@@ -131,30 +131,46 @@
 			
 			<center>
 			<form action="https://formsubmit.co/amlawncare82@gmail.com" method="POST">
-				<label for="fname">First Name:</label><br>
-				<input type="text" id="fname" name="fname"><br>
-				<label for="lname">Last Name:</label><br>
-				<input type="text" id="lname" name="lname"><br><br>
+				<div>
+					<label for="fname">First Name:</label><br>
+					<input type="text" id="fname" name="fname" placeholder="John" required><br>
+				</div>
+				<div>
+					<label for="lname">Last Name:</label><br>
+					<input type="text" id="lname" name="lname" placeholder="Doe" required><br><br>
+				</div>
 
-				<label for="phone">Phone:</label><br>
-				<input type="text" id="phone" name="phone"><br><br>
+				<div>
+					<label for="phone">Phone:</label><br>
+					<input type="text" id="phone" name="phone" placeholder="(123) 456-7890" required><br><br>
+				</div>
 
-				<label for="email">E-Mail:</label><br>
-				<input type="text" id="email" name="email"><br><br>
-				
-				<input type="radio" id="Repairs Person" name="position" value="REPAIRSPERSON">
-				<label for="Repairs Person">Repairs Person</label><br>	
-				<input type="radio" id="Accountant" name="position" value="ACCOUNTANT">
-				<label for="Accountant">Accountant</label><br>
-				<input type="radio" id="Receptionist" name="position" value="RECEPTIONIST">
-				<label for="Receptionist">Receptionist</label><br><br>
+				<div>
+					<label for="email">E-Mail:</label><br>
+					<input type="text" id="email" name="email" placeholder="example@email.com" required><br><br>
+				</div>
 
-				<label for="ed">Education:</label><br>
-				<input type="text" id="ed" name="ed"><br><br>
+				<div>
+					<label for="position">Position:</label>
+					<select id="position" name="position" required>
+						<option value="rp">Repairs Person</option>
+						<option value="accountant">Accountant</option>
+						<option value="receptionist">Receptionist</option>
+					</select>
+				</div>
 
-				<label for="exp">Experience:</label><br>
-				<input type="text" id="exp" name="exp"><br><br>
-				<input type="submit" value="submit" >
+				<div>
+					<label for="ed">Education:</label><br>
+					<input type="text" id="ed" name="ed" placeholder="-------" required><br><br>
+				</div>
+
+				<div>
+					<label for="exp">Experience:</label><br>
+					<input type="text" id="exp" name="exp" placeholder="-------" required><br><br>
+				</div>
+				<div>
+					<input type="submit" value="submit" >
+				</div>
 			</form>
 			</center>
 			
