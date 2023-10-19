@@ -107,7 +107,15 @@
 
 			<!-- Application Form -->
 			<center>
-			<form action="https://formsubmit.co/amlawncare82@gmail.com" method="POST">
+			<form class="row g-3" action="https://formsubmit.co/amlawncare82@gmail.com" method="POST">
+				<!-- Honepot -->
+				<input type="text" name="_honey" style="display: none;">
+
+				<!-- Disable Captcha-->
+				<input type="hidden" name="_captcha" value="false">
+
+				<input type="hidden" name="_next" value"success.html">
+				
 				<div>
 					<label for="fname">First Name:</label><br>
 					<input type="text" id="fname" name="fname" placeholder="John" required><br>
