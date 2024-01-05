@@ -15,11 +15,11 @@
 	
 	table, td{border: none;}
 	
-	.rightsidebar {width: 200px; height: 200px; float: right;}
+	.rightsidebar {width: 200px; height: 200px; float: left;}
 	
 	.caption {font-size: .8em;font-style: italic;}
 	
-	.toc {vertical align: top; width: 120px; background: #008531}
+	.toc {vertical align: top; width: 120px; background: #008531;}
 	
 	.toc a:link {text-decoration: none;
 	font-weight: bold;}
@@ -31,7 +31,10 @@
 	.main {vertical-align: top;}
 	
 	.logobar {background: #008531;}
-	
+
+	.copyright {vertical-align: bottom;}
+
+	footer {background: #008531; vertical-align: bottom;}
 	</style>
 
 	<head>
@@ -43,21 +46,26 @@
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	</head>
 
-	<body bgcolor="black" text="white">
-			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<body bgcolor="#D8E4FF" text="#00120B">		
+			<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
 			
-			<!-- Navigation Bar -->
+			<!-- Naavigation Bar -->
 			
-			<td class="toc" valign="top" bgcolor="#008531" rowspan="2">
+			<table width="100%" border="0">
+			
+			<tr>
+			
+			<td class="toc" valign="top" bgcolor="#6B818C" rowspan="2">
 
 			<p>
-			<img src="logo.png" width="100px" height="100px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<center>
+			<img src="logo.png" width="275px" height="275px"> <br>
 
-			<a href="index.html">
+      <a href="index.html">
 			<img src="HOME.png" width="200px" height="200px" alt="home">
       </a>
         
-      <a href="index.html">
+      <a href="pricing.html">
 			<img src="PRICING.png" width="200px" height="200px" alt="pricing">
       </a>
 
